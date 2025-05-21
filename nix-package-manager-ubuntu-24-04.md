@@ -29,26 +29,10 @@ https://nix.dev/manual/nix/2.21/installation/uninstall
 2.  **Follow the prompts:**
     The installation script will likely ask for confirmation before proceeding. Read the prompts carefully and typically press Enter to accept the defaults. The script will set up the Nix store and modify your shell configuration files.
 
-3.  **Source your shell configuration:**
-    After the installation script completes, you'll need to source your shell's configuration file to activate the Nix environment in your current terminal session. The script will usually tell you which file to source. For Bash, it's typically:
-    ```bash
-    . ~/.bashrc
-    ```
-    or
-    ```bash
-    source ~/.bashrc
-    ```
-    If you are using Zsh, it might be:
-    ```bash
-    . ~/.zshrc
-    ```
-    or
-    ```bash
-    source ~/.zshrc
-    ```
-    Close and reopen your terminal if sourcing doesn't seem to take effect.
+3.  **Restart terminal:**
+    After the installation script completes, close and reopen your terminal for changes to take effect.
 
-4.  **Verify the installation:**
+5.  **Verify the installation:**
     To confirm that Nix is installed correctly, run the following command:
     ```bash
     nix-shell -p nix-info --run "nix-info -m"
