@@ -11,12 +11,18 @@ This guide will walk you through the steps to install the Nix Package Manager on
     sudo apt install curl
     ```
 
+## Un-install Steps
+Just in case you may have tried this in the past and have some left-over config in your system, it'd be better to get a fresh start.
+
+Follow the guide here on nix official page:
+https://nix.dev/manual/nix/2.21/installation/uninstall
+
 ## Installation Steps
 
 1.  **Download the Nix installation script:**
     Open your terminal and run the following command:
     ```bash
-    curl -L [https://nixos.org/nix/install](https://nixos.org/nix/install) | sh
+    curl -L https://nixos.org/nix/install | sh -s -- --daemon
     ```
     This command downloads the official Nix installation script and immediately executes it.
 
