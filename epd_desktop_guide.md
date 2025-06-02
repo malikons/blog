@@ -350,7 +350,7 @@ Once everything is set up, you can connect to your e-paper desktop remotely:
 
 **From Windows:**
 - Use RealVNC Viewer or similar VNC client
-- Connect to: `PI_IP_ADDRESS:1` (e.g., `192.168.1.100:1`)
+- Connect to: `PI_IP_ADDRESS:5901` (e.g., `192.168.1.100:5901`)
 - Use the VNC password you set earlier
 
 **Resolution Notes:**
